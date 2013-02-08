@@ -1,14 +1,19 @@
 // define several functions
 function firstFunction() {
+//	alert("second function");
     secondFunction();
 }
 function secondFunction() {
-    thirdFunction();
+   //      alert("third function");
+   thirdFunction();
 }
 function thirdFunction() {
-    fourthfunction();
+	// alert("fourth function");
+    fourthFunction();
 }
 function fourthFunction() {
+//      alert("about to change headline");
+//
     headline.innerHTML = "You clicked the headline!";
 }
 
@@ -16,7 +21,8 @@ function fourthFunction() {
 var headline = document.getElementById("mainHeading");
 // add a click event handler
 headline.onclick = function() {
-    firstFunction();
+   alert("first function");
+   firstFunction();
 };
 
 
