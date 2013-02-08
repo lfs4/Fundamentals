@@ -1,8 +1,13 @@
 function addTwoNumbers() {
-   	var a = 5;
-	var b = 10;
-	var result = a + b;
-	alert(result);
+   var result = a + b;
+   return result;
 }
 
-addTwoNumbers();
+
+var x = addTwoNumber(5,10);
+alert(x);
+addTwoNumbers(500, 100);
+addTwoNumbers(7,-2323);
+
+var name = prompt("What is your name?");
+
