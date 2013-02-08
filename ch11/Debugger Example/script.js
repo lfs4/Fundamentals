@@ -19,7 +19,7 @@ function thirdFunction() {
         i++;
     }   
   
-    fourthfunction();
+    fourthFunction();
 }
 function fourthFunction() {
     headline.innerHTML = "You clicked the headline!";
